@@ -1,0 +1,285 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+#wrapper{
+    background-color:#D4D1D1;
+    width:1200px;
+    height:1540px;
+    margin: 0 auto;
+}
+#headerBar{
+    background-color: rgba(243, 243, 243, 0.85);
+    width:1100px;
+    height:75px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+#menu{
+    width: 80px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height:75px ;
+    display: inline-block;
+}
+#headerBar > #headerContent > ul{
+    display: inline-block;
+    position: relative;
+    bottom: 31px;
+}
+#headerBar > #headerContent > ul > li{
+    display: inline-block;
+}
+#headerBar > #headerContent > ul > li >button{
+    width: 111px;
+    height: 74px;
+    font-size: 15px;
+    background-color: #f3f3f3;
+    border:none;
+}
+#search{
+    display: inline-block;
+    position: relative;
+    left: 800px;
+    bottom: 90px;
+}
+#searchBar{
+    display:inline-block;
+    width: 180px;
+    height: 35px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    vertical-align: top;
+}
+#searchIcon{
+    display: inline-block;
+    height: 35px;
+}
+#body{
+    display: inline-block;
+    width:1100px;
+    height: 500px;
+    border: dotted;
+    position: relative;
+    top: 33px;
+    left: 46px;
+    border-radius: 10px;
+}
+#imgMain{
+    display: inline-block;
+    width: 1100px;
+    height: 440px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#darkBar{
+    display: inline-block;
+    background-color: #434343;
+    width:1100px;
+    height: 57px;
+
+}
+#body > #darkBar > ul{
+    display: inline-block;
+
+}
+#body > #darkBar > ul >li{
+    display: inline-block;
+    color: #83b0cb;
+    margin: 22px;
+}
+#lowerBody{
+    display: inline-block;
+    background-color: #f2f2f2;
+    width:1100px;
+    height: 550px;
+    border-radius: 3px;
+    position: relative;
+    left: 48px;
+    top: 50px;
+}
+#lowerBodyTop{
+    display: inline-block;
+    width:1100px;
+    height: 115px;
+    border-bottom:groove;
+    border-color: rgba(242, 242, 242, 0.15);
+}
+#lowerBody > #lowerBodyTop > h1{
+    display: inline-block;
+    color:#c2c2c2;
+    font-size:35px;
+    border-right: solid;
+    margin-left: 42px;
+    margin-top: 30px;
+    padding-right: 21px
+}
+#lowerBody > #lowerBodyTop >button{
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    border-color: rgba(242, 242, 242, 0.15);
+    border:groove;
+    background-color: #4e88af;
+    width: 360px;
+    height: 60px;
+    margin-left: 53px;
+    font-size: 25px;
+    
+}
+#lowerBodyLow{
+    display: inline-block;
+    width:1100px;
+    height:380px;
+    border-bottom:groove;
+    border-color: rgba(242, 242, 242, 0.15);
+}
+.lowerBodyBoxes{
+    display: inline-block;
+    width:275px;
+    height:325px;
+    border-color: rgba(242, 242, 242, 0.15);
+    border-right: groove;
+    vertical-align: top;
+
+}
+#lowerBodyBox4{
+    display: inline-block;
+    width:250px;
+    height:325px;
+    position: relative;
+}
+#content{
+    display: inline-block;
+    width:35px;
+    height:35px;
+    margin-top:5px;
+    margin-left: 30px;
+    
+}
+#content2{
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    width:35px;
+    height:35px
+}
+#content3{
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 12px;
+    width:35px;
+    height:35px
+}
+#content4{
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 28px;
+    width:35px;
+    height:35px
+}
+#watch{
+    display: inline-block;
+    width:210px;
+    height: 135px;
+    position: relative;
+    left: 27px;
+    margin-top: 17px;
+}
+#tour{
+    display: inline-block;
+    width:210px;
+    position: relative;;
+    left: 27px;
+    bottom: 7px;
+}
+#trial{
+    display: inline-block;
+    width:210px;
+    position: relative;
+    left: 27px;
+    bottom: 7px;
+}
+#products{
+    display: inline-block;
+    width:210px;
+    position: relative;
+    top: 40px;
+    left: 27px;
+}
+.lowerBodyBoxes > h2{
+    vertical-align: top;
+    display: inline-block;
+    font-size:19px;
+    position: relative;
+    top: 8px;
+}
+#lowerBodyBox4 > h2{
+    vertical-align: top;
+    display: inline-block;
+    font-size:19px;
+    position: relative;
+    top: 7px;
+
+    
+}
+#lowerBodyLow > .lowerBodyBoxes > p{
+    margin: 23px;
+}
+#lowerBodyLow > .lowerBodyBoxes > button{
+    display: inline-block;
+    background-color:#5cace8;
+    color: white;
+    border-radius: 5px;
+    width:210px;
+    height: 40px;
+    margin-left: 30px;
+    font-size: 17px;
+}
+#lowerBodyLow > #lowerBodyBox4 > button{
+    display: inline-block;
+    background-color:#5cace8;
+    color: white;
+    border-radius: 5px;
+    width:210px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 46px;
+    font-size: 17px;
+}
+#lowestBody{
+    display: inline-block;
+    background-color: #f2f2f2;
+    width:1100px;
+    height: 310px;
+    border-bottom:groove;
+    position: relative;
+    top: 49px;
+}
+.lowestBoxes{
+    display: inline-block;
+    width: 174px;
+    height: 300px;
+    vertical-align: top;
+    margin-left: 6px;
+}
+.anotherBox{
+    display: inline-block;
+    width: 170px;
+    height: 210px;
+    border-top: groove;
+    margin-top: 22px;
+}
+.anotherBox > ul{
+    list-style: none;
+}
+.anotherBox > ul > li{
+    margin: 22px;
+    font-size: 13px;
+}
+#footerP{
+    margin-top: 53px;
+    font-size: 14px;
+    color:#9c9b9a;
+    display: inline-block;
+}
